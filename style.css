@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#ref-square{
+    margin: 50px auto;
+    width: 420px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#score-filed{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#time-score{
+    padding-right: 30px;
+}
+#click-scoure{
+    padding-left: 30px;
+}
+#replay-btn{
+    cursor: pointer;
+    width: 250px;
+    height: 75px;
+    margin-left: 24%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 2rem;
+
+}
+
+#options{
+    padding: 25px 50px;
+}
+#labels{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    color: #fff;
+    font-size: 1rem;
+}
+#inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+#start{
+    display: flex;
+    padding: 25px;
+}
+#start-game{
+    margin: auto;
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+}
+#master-square{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    border: none;
+    border-radius: 15px;
+}
+p{
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2rem;
+}
+#counter{
+    padding-left: 50px;
+}
+#time{
+    padding-right: 50px;
+}
+
+#game-filed{
+    width: 420px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

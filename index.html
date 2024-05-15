@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pick color game" />
+    <meta name="author" content="samer alaws" />
+    <meta name="keywords" content="free game, color, " />
+    <link rel="stylesheet" href="style.css" />
+    <title>PickColor</title>
+  </head>
+  <body>
+    <div id="ref-square">
+      <div id="options">
+        <div id="labels">
+          <label for="easy">16</label>
+          <label for="medium">36</label>
+          <label for="hard">64</label>
+        </div>
+        <div id="inputs">
+          <label>
+            <input type="radio" id="easy" name="check-box" value="16" checked />
+          </label>
+          <label>
+            <input type="radio" id="medium" name="check-box" value="36" />
+          </label>
+          <label>
+            <input type="radio" id="hard" name="check-box" value="64" />
+          </label>
+        </div>
+      </div>
+      <div id="start">
+        <button id="start-game">Play</button>
+      </div>
+    </div>
+    <div id="game-filed">
+      <!--
+            4 * 4 = 16
+            6 * 6 = 36
+            8 * 8 = 64
+        -->
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
